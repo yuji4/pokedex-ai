@@ -10,11 +10,14 @@
 ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여 학습했습니다.
 
 
+
+
 ## 데이터셋
 
 - [7,000 Labeled Pokemon - Kaggle](https://www.kaggle.com/datasets/lantian773030/pokemonclassification)
 - 총 6,820장의 이미지, 150개 클래스
 - Train / Val / Test = 70% / 15% / 15% 비율로 분할
+
 
 
 
@@ -54,6 +57,7 @@ ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여
 
 
 
+
 ## Learning Curve
 
 | exp1 - ResNet18 Frozen | exp2 - ResNet18 Full |
@@ -63,6 +67,7 @@ ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여
 | exp3 - ResNet50 Frozen | exp4 - MobileNetV2 Frozen |
 |------------------------|---------------------------|
 | ![](assets/exp3_resnet50_frozen_curve.png) | ![](assets/exp4_mobilenet_frozen_curve.png) |
+
 
 
 
