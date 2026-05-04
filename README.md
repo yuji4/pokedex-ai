@@ -9,7 +9,6 @@
 포켓몬 이미지를 입력하면 150종의 포켓몬 중 어떤 포켓몬인지 분류하는 딥러닝 모델입니다.  
 ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여 학습했습니다.
 
----
 
 ## 데이터셋
 
@@ -17,7 +16,7 @@ ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여
 - 총 6,820장의 이미지, 150개 클래스
 - Train / Val / Test = 70% / 15% / 15% 비율로 분할
 
----
+
 
 ## 실험 결과
 
@@ -53,7 +52,7 @@ ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여
 
 ![실험 비교](assets/comparison.png)
 
----
+
 
 ## Learning Curve
 
@@ -65,11 +64,13 @@ ImageNet으로 사전학습된 CNN 백본 모델에 전이학습을 적용하여
 |------------------------|---------------------------|
 | ![](assets/exp3_resnet50_frozen_curve.png) | ![](assets/exp4_mobilenet_frozen_curve.png) |
 
----
+
 
 ## 데모 GUI
 
 Gradio를 이용한 웹 데모를 제공합니다.  
 포켓몬 이미지를 업로드하면 Top-5 예측 결과를 확인할 수 있습니다.
 
-![GUI 데모](assets/demo_screenshot.png)
+| 데모 1 | 데모 2 |
+|--------|--------|
+| ![](assets/demo_screenshot_1.png) | ![](assets/demo_screenshot_2.png) |
